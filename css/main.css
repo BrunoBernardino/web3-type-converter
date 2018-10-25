@@ -1,0 +1,150 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html {
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+a:hover,
+a:active {
+  color: #dd85c3;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+body {
+  font: 16px/26px Helvetica Neue, Helvetica, Arial;
+  background: #333;
+}
+
+.container {
+  width: 90%;
+  margin: 0;
+  color: #fff;
+  padding: 5%;
+  text-align: center;
+  max-width: 600px;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 5px;
+}
+
+.container header {
+  margin: 0 0 50px;
+}
+
+.container section {
+  margin: 10px 0;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+
+.container h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+.container h2 {
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+.container .converter {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container textarea {
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+  font-weight: 300;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+#to {
+  margin-left: 5px;
+}
+
+footer {
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+  display: block;
+}
+
+footer a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
+
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+
+  color: #fff;
+  background: #000;
+}
+
+footer a:hover,
+footer a:active {
+  text-decoration: underline;
+  background: #222;
+  color: #fff;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+  footer a {
+    display: inline-block;
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    margin: 5% auto;
+  }
+
+  footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  footer a {
+    font-weight: 500;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .container section {
+    margin: 30px 0;
+  }
+}

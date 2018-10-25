@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Web3 Type Converter - Convert from bytes32 to string</title>
+    <meta name="description" content="Convert from bytes32 to string, number to bytes32, and more!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <header>
+        <h1>Web3 Type Converter</h1>
+        <h2>Convert from a bytes32/hex into a string/number or vice-versa.</h2>
+      </header>
+
+      <section>
+        <textarea id="input" placeholder="Type here what you want to convert."></textarea>
+      </section>
+
+      <section class="converter">
+        <span>Convert to:</span>
+        <select id="to">
+          <option value="bytes32">bytes32/hex</option>
+          <option value="number">number/decimal</option>
+          <option value="string" selected="selected">string/utf-8/ascii</option>
+        </select>
+      </section>
+
+      <section>
+        <textarea id="output" placeholder="Here you'll see the result."></textarea>
+      </section>
+
+      <section>
+        <p>These conversions happen in your browser. No data is stored.</p>
+      </section>
+
+      <footer>
+        <ul>
+          <li><a href="https://github.com/BrunoBernardino/web3-type-converter">Github</a></li>
+          <li><a href="https://thoughts.brunobernardino.com/if-i-ve-helped-you-consider-donating">Donate</a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <script src="js/web3.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
