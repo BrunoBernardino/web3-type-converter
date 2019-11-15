@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "web3-type-converter",
+  "scope": "brunobernardino",
+  "alias": ["web3-type-converter.brn.sh"],
+  "github": {
+    "enabled": false
+  },
+  "builds": [
+    {
+      "src": "./**/*",
+      "use": "@now/static"
+    }
+  ]
+}
