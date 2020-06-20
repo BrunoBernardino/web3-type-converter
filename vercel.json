@@ -1,7 +1,6 @@
 {
   "version": 2,
-  "name": "web3-type-converter",
-  "scope": "brunobernardino",
+  "scope": "brn",
   "alias": ["web3-type-converter.brn.sh"],
   "github": {
     "enabled": false
