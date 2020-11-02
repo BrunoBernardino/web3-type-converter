@@ -1,14 +1,14 @@
 {
   "version": 2,
   "scope": "brn",
-  "alias": ["web3-type-converter.brn.sh"],
+  "alias": ["web3-type-converter.onbrn.com"],
   "github": {
     "enabled": false
   },
   "builds": [
     {
       "src": "./**/*",
-      "use": "@now/static"
+      "use": "@vercel/static"
     }
   ]
 }
