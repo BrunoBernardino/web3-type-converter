@@ -4,6 +4,6 @@ I built this tool so I could easily convert a hex/bytes32 string into a string o
 
 Hopefully it's also useful to you.
 
-Deploy using `vercel --prod`
+Deploy using `serverless`
 
-View locally using `serve -s .`
+View locally using `serve -s src`
