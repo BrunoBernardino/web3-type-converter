@@ -117,6 +117,18 @@ footer a:active {
   color: #fff;
 }
 
+#applyPaddingContainer {
+  display: none;
+}
+
+#applyPadding {
+  margin-left: 1rem;
+}
+
+label[for=applyPadding] {
+  margin-left: 5px;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
