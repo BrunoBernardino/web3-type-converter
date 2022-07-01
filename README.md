@@ -4,6 +4,8 @@ I built this tool so I could easily convert a hex/bytes32 string into a string o
 
 Hopefully it's also useful to you.
 
-Deploy using `serverless`
+Uses [Deno](https://deno.land) as a backend (though you could just serve the `src` directory with any other tool).
 
-View locally using `serve -s src`
+Deploy by pushing to the `main` branch.
+
+View locally using `make start`.

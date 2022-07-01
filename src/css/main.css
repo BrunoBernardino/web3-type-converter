@@ -117,15 +117,15 @@ footer a:active {
   color: #fff;
 }
 
-#applyPaddingContainer {
+#apply-padding-container {
   display: none;
 }
 
-#applyPadding {
+#apply-padding {
   margin-left: 1rem;
 }
 
-label[for=applyPadding] {
+label[for=apply-padding] {
   margin-left: 5px;
 }
 

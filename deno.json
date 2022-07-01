@@ -1,0 +1,25 @@
+{
+  "fmt": {
+    "options": {
+      "useTabs": false,
+      "lineWidth": 120,
+      "indentWidth": 2,
+      "singleQuote": true,
+      "proseWrap": "preserve"
+    },
+    "files": {
+      "exclude": [
+        "src/js/web3.min.js",
+        "src/css/normalize.min.css"
+      ]
+    }
+  },
+  "lint": {
+    "files": {
+      "exclude": [
+        "src/js/main.js",
+        "src/js/web3.min.js"
+      ]
+    }
+  }
+}
