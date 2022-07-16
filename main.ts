@@ -9,7 +9,9 @@ app.use(async (ctx) => {
     const file = urlParts.pop();
     const fileExtension = file?.split('.').pop();
     if ((!file && !fileExtension) || (file && fileExtension === 'html')) {
-      recordPageView(ctx.request.url.pathname);
+      if (!ctx.request.url.hostname.startsWith('localhost')) {
+        recordPageView(ctx.request.url.pathname);
+      }
     }
 
     await ctx.send({
@@ -28,7 +30,7 @@ await app.listen({ port: 8000 });
 
 async function recordPageView(pathname: string) {
   try {
-    await fetch('https://plausible.io/api/event', {
+    await fetch('https://stats.onbrn.com/api/event', {
       method: 'POST',
       headers: {
         'content-type': 'application/json; charset=utf-8',
