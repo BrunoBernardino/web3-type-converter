@@ -6,6 +6,6 @@ Hopefully it's also useful to you.
 
 Uses [Deno](https://deno.land) as a backend (though you could just serve the `src` directory with any other tool).
 
-Deploy by pushing to the `main` branch.
+Deploy by pushing to the `main` branch (deployed via [Deno Deploy](https://deno.com/deploy)).
 
 View locally using `make start`.
