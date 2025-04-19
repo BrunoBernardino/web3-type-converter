@@ -16,5 +16,6 @@
       "src/js/web3.min.js"
     ]
   },
-  "lock": false
+  "lock": false,
+  "nodeModulesDir": "none"
 }

@@ -4,6 +4,8 @@ html {
   color: #fff;
   font-size: 1em;
   line-height: 1.4;
+  background: #333 linear-gradient(#333, #222);
+  min-height: 100vh;
 }
 
 a {
@@ -24,7 +26,6 @@ img {
 
 body {
   font: 16px/26px Helvetica Neue, Helvetica, Arial;
-  background: #333;
 }
 
 .container {
@@ -34,8 +35,9 @@ body {
   padding: 5%;
   text-align: center;
   max-width: 600px;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .container header {
@@ -76,6 +78,7 @@ body {
   font-weight: 300;
   padding: 10px;
   font-size: 0.9em;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
 }
 
 #to {
@@ -105,16 +108,20 @@ footer a {
   text-align: center;
   text-decoration: none;
   font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
 
   color: #fff;
-  background: #000;
+  background: #222;
+  transition: background 0.1s ease;
 }
 
 footer a:hover,
 footer a:active {
   text-decoration: underline;
-  background: #222;
+  background: #000;
   color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 #apply-padding-container {
@@ -125,7 +132,7 @@ footer a:active {
   margin-left: 1rem;
 }
 
-label[for=apply-padding] {
+label[for='apply-padding'] {
   margin-left: 5px;
 }
 
