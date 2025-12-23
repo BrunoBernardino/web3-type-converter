@@ -1,4 +1,4 @@
-import { Application } from 'https://deno.land/x/oak@v12.6.0/mod.ts';
+import { Application } from 'oak';
 
 const app = new Application();
 app.use(async (ctx) => {

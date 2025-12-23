@@ -17,5 +17,8 @@
     ]
   },
   "lock": false,
-  "nodeModulesDir": "none"
+  "nodeModulesDir": "none",
+  "imports": {
+    "oak": "https://deno.land/x/oak@v12.6.0/mod.ts"
+  }
 }
